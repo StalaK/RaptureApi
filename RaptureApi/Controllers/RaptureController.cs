@@ -24,9 +24,17 @@ namespace RaptureApi.Controllers
         [Route("[action]")]
         public ActionResult<IEnumerable<RaptureDetailsViewModel>> GetAllRaptures()
         {
-            var allRaptures = service.GetAllRaptures();
-            var viewModel = mapper.Map<IEnumerable<RaptureDetailsViewModel>>(allRaptures);
-            return Ok(viewModel);
+            try
+            {
+                var allRaptures = service.GetAllRaptures();
+                var viewModel = mapper.Map<IEnumerable<RaptureDetailsViewModel>>(allRaptures);
+                return Ok(viewModel);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return StatusCode(500);
+            }
         }
 
         [HttpGet]
