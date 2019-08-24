@@ -11,6 +11,7 @@ namespace RaptureApi.Data
             modelBuilder.Entity<Rapture>().HasData(
                 new Rapture
                 {
+                    Id = 1,
                     RaptureStartDate = new DateTime(2019, 6, 9),
                     RaptureEndDate = new DateTime(2019, 6, 9),
                     Predictor = "Ronald Weinland",
@@ -19,6 +20,7 @@ namespace RaptureApi.Data
                 },
                 new Rapture
                 {
+                    Id = 2,
                     RaptureStartDate = new DateTime(2020, 12, 31),
                     RaptureEndDate = new DateTime(2020, 12, 31),
                     Predictor = "Jeane Dixon",
