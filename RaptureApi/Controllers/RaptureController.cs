@@ -7,7 +7,7 @@ using RaptureApi.ViewModels;
 
 namespace RaptureApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class RaptureController : ControllerBase
     { 
