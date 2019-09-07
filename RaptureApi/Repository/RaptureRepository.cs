@@ -20,7 +20,7 @@ namespace RaptureApi.Repository
 
         public IEnumerable<RaptureDetailsDto> GetAllRaptures()
         {
-            var allResults = context.Raptures.ToList();
+            var allResults = context.Raptures;
 
             return mapper.Map<IEnumerable<RaptureDetailsDto>>(allResults);
         }

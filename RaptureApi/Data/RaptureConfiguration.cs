@@ -24,7 +24,7 @@ namespace RaptureApi.Data
             builder.Property(p => p.RaptureEndDate)
                 .IsRequired(true)
                 .HasColumnType("datetime")
-                .HasColumnName("StartDate");
+                .HasColumnName("EndDate");
 
             builder.Property(p => p.Predictor)
                 .IsRequired(true)
