@@ -13,6 +13,8 @@ namespace RaptureApi
 {
     public class Startup
     {
+        public string corsPolicy = "CorsPolicy";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -40,6 +42,14 @@ namespace RaptureApi
             services.AddScoped<IRaptureService, RaptureService>();
             services.AddScoped<IRaptureRepository, RaptureRepository>();
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy(corsPolicy, builder =>
+                {
+                    builder.AllowAnyOrigin();
+                });
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -62,6 +72,7 @@ namespace RaptureApi
                 c.RoutePrefix = string.Empty;
             });
 
+            app.UseCors(corsPolicy);
             app.UseHttpsRedirection();
             app.UseMvc();
         }
