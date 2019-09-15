@@ -26,8 +26,7 @@ namespace RaptureApi.Data
                     Predictor = "Jeane Dixon",
                     Details = "Armageddon",
                     YearOnly = true
-                }
-                );
+                });
         }
     }
 }
