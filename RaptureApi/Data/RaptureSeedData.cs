@@ -135,7 +135,7 @@ namespace RaptureApi.Data
                     RaptureStartDate = new DateTime(2013, 8, 23),
                     RaptureEndDate = new DateTime(2013, 8, 23),
                     Predictor = "Grigori Rasputin",
-                    Details = "A storm would take place and fire destroys most life on land. Jesus returns to comfort those in distress."
+                    Details = "A storm would take place and fire destroys most life on land. Jesus returns to comfort those in distress.",
                     WhoGotRaptured = "Nobody."
                 },
                 new Rapture
@@ -144,7 +144,7 @@ namespace RaptureApi.Data
                     RaptureStartDate = new DateTime(2014, 4, 1),
                     RaptureEndDate = new DateTime(2015, 9, 30),
                     Predictor = "John Hagee & Mark Biltz",
-                    Details = "The Blood Moon Prophecy. The tetrad (four lunar eclipses over two years) represents the beginning of the Messianic End Times."
+                    Details = "The Blood Moon Prophecy. The tetrad (four lunar eclipses over two years) represents the beginning of the Messianic End Times.",
                     WhoGotRaptured = "Nobody.",
                     MonthOnly = true
                 },
@@ -163,7 +163,7 @@ namespace RaptureApi.Data
                     RaptureStartDate = new DateTime(2018, 4, 23),
                     RaptureEndDate = new DateTime(2018, 4, 23),
                     Predictor = "David Meade",
-                    Details = "The rapture takes place and the world ends."
+                    Details = "The rapture takes place and the world ends.",
                     WhoGotRaptured = "Nobody."
                 },
                 new Rapture
@@ -174,6 +174,60 @@ namespace RaptureApi.Data
                     Predictor = "Ronald Weinland",
                     Details = "Jesus returns.",
                     WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+                    Id = 19,
+                    RaptureStartDate = new DateTime(2020, 12, 31),
+                    RaptureEndDate = new DateTime(2020, 12, 31),
+                    Predictor = "Jeane Dixon",
+                    Details = "Armageddon takes place.",
+                    YearOnly = true
+                },
+                new Rapture
+                {
+                    Id = 20,
+                    RaptureStartDate = new DateTime(2021, 12, 31),
+                    RaptureEndDate = new DateTime(2021, 12, 31),
+                    Predictor = "F. Kenton Beshore",
+                    Details = "Second coming of Jesus, with the rapture being in 2021 at the latest.",
+                    YearOnly = true
+                },
+                new Rapture
+                {
+                    Id = 21,
+                    RaptureStartDate = new DateTime(2026, 12, 31),
+                    RaptureEndDate = new DateTime(2026, 12, 31),
+                    Predictor = "Messiah Foundation International",
+                    Details = "The world ends due to an asteroid colliding with Earth",
+                    YearOnly = true
+                },
+                new Rapture
+                {
+                    Id = 22,
+                    RaptureStartDate = new DateTime(2129, 12, 31),
+                    RaptureEndDate = new DateTime(2129, 12, 31),
+                    Predictor = "Said Nursî",
+                    Details = "An abjad interpretation of a hadith expects the world's end to occur in 2129.",
+                    YearOnly = true
+                },
+                new Rapture
+                {
+                    Id = 23,
+                    RaptureStartDate = new DateTime(2239, 12, 31),
+                    RaptureEndDate = new DateTime(3239, 12, 31),
+                    Predictor = "Talmud, Orthodox Judaism",
+                    Details = "The messiah will come within 6000 years of the creation of Adam, with the destruction of the world happening 1000 years later.",
+                    YearOnly = true
+                },
+                new Rapture
+                {
+                    Id = 24,
+                    RaptureStartDate = new DateTime(2280, 12, 31),
+                    RaptureEndDate = new DateTime(2280, 12, 31),
+                    Predictor = "Rashad Khalifa",
+                    Details = "Predicts the world will end this year following reaseach of the Qu'ran.",
+                    YearOnly = true
                 });
         }
     }
