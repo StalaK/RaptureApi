@@ -52,7 +52,7 @@ namespace RaptureApi.Data
                     RaptureStartDate = new DateTime(2007, 4, 29),
                     RaptureEndDate = new DateTime(2007, 4, 29),
                     Predictor = "Pat Robertson",
-                    Details = "Predicted the Earth's destruction in his book The New Millennium."
+                    Details = "Predicted the Earth's destruction in his book The New Millennium.",
                     WhoGotRaptured = "Nobody",
                 },
                 new Rapture
@@ -61,7 +61,7 @@ namespace RaptureApi.Data
                     RaptureStartDate = new DateTime(2008, 5, 31),
                     RaptureEndDate = new DateTime(2008, 5, 31),
                     Predictor = "Pyotr Kuznetsov",
-                    Details = "Apocalypse. 31 Adults and 4 children hid in a cave to escape it. Kuznetsov was not one of them."
+                    Details = "Apocalypse. 31 Adults and 4 children hid in a cave to escape it. Kuznetsov was not one of them.",
                     WhoGotRaptured = "2 adults died in the cave. Kuznetsov was committed.",
                     MonthOnly = true
                 },
@@ -71,8 +71,8 @@ namespace RaptureApi.Data
                     RaptureStartDate = new DateTime(2010, 12, 31),
                     RaptureEndDate = new DateTime(2010, 12, 31),
                     Predictor = "Hermetic Order of the Golden Dawn",
-                    Details = "Predicted the world would end."
-                    WhoGotRaptured = "2 adults died in the cave. Kuznetsov was committed.",
+                    Details = "Predicted the world would end.",
+                    WhoGotRaptured = "Nobody",
                     YearOnly = true
                 },
                 new Rapture
@@ -99,7 +99,7 @@ namespace RaptureApi.Data
                     RaptureStartDate = new DateTime(2011, 8, 1),
                     RaptureEndDate = new DateTime(2011, 10, 31),
                     Predictor = "Harold Camping",
-                    Details = "Rapture and end of the world following the spiritual judgment in May"
+                    Details = "Rapture and end of the world following the spiritual judgment in May",
                     WhoGotRaptured = "Nobody"
                 },
                 new Rapture
