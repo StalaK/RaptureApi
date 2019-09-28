@@ -376,6 +376,70 @@ namespace RaptureApi.Data
 	                Details = "The destruction of all nations and the beginning of post-apocalyptic anarchy",
 	                WhoGotRaptured = "Nobody.",
 	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 40,
+	                RaptureStartDate = new DateTime(1954, 12, 21),
+	                RaptureEndDate = new DateTime(1954, 12, 21),
+	                Predictor = "Dorothy Martin",
+	                Details = "The world is destroyed by flooding",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 41,
+	                RaptureStartDate = new DateTime(1959, 4, 22),
+	                RaptureEndDate = new DateTime(1959, 4, 22),
+	                Predictor = "Florence Houteff",
+	                Details = "The second prophet of the Branch Davidians predicted the apocalypse foretold in the Book of Revelation occurrs on this date.",
+	                WhoGotRaptured = "Nobody, but the Branch Davidians split into several subsects."
+                },
+                new Rapture
+                {
+	                Id = 42,
+	                RaptureStartDate = new DateTime(1962, 2, 4),
+	                RaptureEndDate = new DateTime(1962, 2, 4),
+	                Predictor = "Jeane Dixon",
+	                Details = "A planetary alignment will bring destruction to the world.",
+	                WhoGotRaptured = "Nobody, but mass prayer meetings were held in India."
+                },
+                new Rapture
+                {
+	                Id = 43,
+	                RaptureStartDate = new DateTime(1967, 8, 20),
+	                RaptureEndDate = new DateTime(1967, 8, 20),
+	                Predictor = "George Van Tassel",
+	                Details = "Van Tassel channeled an alien named Ashtar who told him the third woe of the Apocalypse begins where the southeastern US is destroyed in a Soviet nuclear attack.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 44,
+	                RaptureStartDate = new DateTime(1967, 12, 31),
+	                RaptureEndDate = new DateTime(1967, 12, 31),
+	                Predictor = "Jim Jones",
+	                Details = "Nuclear holocaust would happen this year",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 45,
+	                RaptureStartDate = new DateTime(1969, 8, 9),
+	                RaptureEndDate = new DateTime(1969, 8, 9),
+	                Predictor = "George Williams",
+	                Details = "The Second Coming of Christ occurs on this day",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 46,
+	                RaptureStartDate = new DateTime(1969, 12, 31),
+	                RaptureEndDate = new DateTime(1969, 12, 31),
+	                Predictor = "Charles Manson",
+	                Details = "Helter Skelter, an apocalyptic race war, occurs.",
+	                WhoGotRaptured = "Nobody outside of the Manson Family murders."
                 });
         }
     }
