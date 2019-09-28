@@ -307,6 +307,75 @@ namespace RaptureApi.Data
 	                Details = "God destroys churches and church members by the millions. Governments disappear with anarchy prevailing.",
 	                WhoGotRaptured = "Nobody.",
 	                MonthOnly = true
+                },
+                new Rapture
+                {
+	                Id = 33,
+	                RaptureStartDate = new DateTime(1925, 2, 13),
+	                RaptureEndDate = new DateTime(1925, 2, 13),
+	                Predictor = "Margaret Rowen",
+	                Details = "The angel Gabriel appeared before Rowen and told her that the world would end at midnight on this date.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 34,
+	                RaptureStartDate = new DateTime(1926, 12, 31),
+	                RaptureEndDate = new DateTime(1926, 12, 31),
+	                Predictor = "Spencer Perceval",
+	                Details = "The world is growing near apocalypse due to rampant immorality in Europe.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 35,
+	                RaptureStartDate = new DateTime(1935, 9, 30),
+	                RaptureEndDate = new DateTime(1935, 9, 30),
+	                Predictor = "Wilbur Glenn Voliva",
+	                Details = "The world is going to go puff and disappear",
+	                WhoGotRaptured = "Nobody.",
+	                MonthOnly = true
+                },
+                new Rapture
+                {
+	                Id = 36,
+	                RaptureStartDate = new DateTime(1936, 12, 31),
+	                RaptureEndDate = new DateTime(1936, 12, 31),
+	                Predictor = "Herbert W. Armstrong",
+	                Details = "Rapture.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 37,
+	                RaptureStartDate = new DateTime(1941, 12, 31),
+	                RaptureEndDate = new DateTime(1941, 12, 31),
+	                Predictor = "Jehovah's Witnesses",
+	                Details = "Prediction of the end",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 38,
+	                RaptureStartDate = new DateTime(1943, 12, 31),
+	                RaptureEndDate = new DateTime(1943, 12, 31),
+	                Predictor = "Herbert W. Armstrong",
+	                Details = "Revised date of the previous rapture.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 39,
+	                RaptureStartDate = new DateTime(1947, 12, 31),
+	                RaptureEndDate = new DateTime(1947, 12, 31),
+	                Predictor = "John Ballou Newbrough",
+	                Details = "The destruction of all nations and the beginning of post-apocalyptic anarchy",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
                 });
         }
     }
