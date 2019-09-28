@@ -553,7 +553,7 @@ namespace RaptureApi.Data
                 {
 	                Id = 58,
 	                RaptureStartDate = new DateTime(1982, 4, 31),
-	                RaptureEndDate = new DateTime(1982, 6, 31),
+	                RaptureEndDate = new DateTime(1982, 6, 30),
 	                Predictor = "Tara Centers",
 	                Details = "Declared \"Christ is now here!\" in newspaper advertisements and claimed he would make himself known \"within the next two months \"",
 	                WhoGotRaptured = "Nobody.",
