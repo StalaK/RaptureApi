@@ -886,16 +886,6 @@ namespace RaptureApi.Data
                 },
                 new Rapture
                 {
-	                Id = 93,
-	                RaptureStartDate = new DateTime(2000, 12, 31),
-	                RaptureEndDate = new DateTime(2000, 12, 31),
-	                Predictor = "Peter Olivi",
-	                Details = "The Antichrist who came to power between 1300 and 1340 would perform the Last Judgment in 2000",
-	                WhoGotRaptured = "Nobody.",
-	                YearOnly = true
-                },
-                new Rapture
-                {
 	                Id = 94,
 	                RaptureStartDate = new DateTime(2000, 12, 31),
 	                RaptureEndDate = new DateTime(2000, 12, 31),
@@ -989,6 +979,16 @@ namespace RaptureApi.Data
                     Predictor = "Hon-Ming Chen",
                     Details = "God will arrive at Earth at 10am on this date in a flying saucer.",
                     WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+                    Id = 104,
+                    RaptureStartDate = new DateTime(2000, 12, 31),
+                    RaptureEndDate = new DateTime(2000, 12, 31),
+                    Predictor = "Peter Olivi",
+                    Details = "The Antichrist who came to power between 1300 and 1340 would perform the Last Judgment in 2000",
+                    WhoGotRaptured = "Nobody.",
+                    YearOnly = true
                 });
         }
     }
