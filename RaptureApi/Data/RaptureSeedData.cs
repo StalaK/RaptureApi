@@ -590,20 +590,11 @@ namespace RaptureApi.Data
                 },
                 new Rapture
                 {
-	                Id = 61,
+	                Id = 62,
 	                RaptureStartDate = new DateTime(1986, 4, 29),
 	                RaptureEndDate = new DateTime(1986, 4, 29),
 	                Predictor = "Leland Jensen",
 	                Details = "Predicted that Halley's Comet would be pulled into Earth's orbit.",
-	                WhoGotRaptured = "Nobody."
-                },
-                new Rapture
-                {
-	                Id = 62,
-	                RaptureStartDate = new DateTime(1987, 8, 17),
-	                RaptureEndDate = new DateTime(1987, 8, 17),
-	                Predictor = "José Argüelles",
-	                Details = "Armageddon would heppen unless 144,000 people gathered in specifc places on Earth and meditated at the same time, which became known as Harmonic Convergence.",
 	                WhoGotRaptured = "Nobody."
                 },
                 new Rapture
@@ -622,15 +613,6 @@ namespace RaptureApi.Data
 	                RaptureEndDate = new DateTime(1988, 10, 3),
 	                Predictor = "Edgar C. Whisenant",
 	                Details = "Whisenant's revised prediction of the rapture of the Christian Church, following the failed September prediction.",
-	                WhoGotRaptured = "Nobody."
-                },
-                new Rapture
-                {
-	                Id = 64,
-	                RaptureStartDate = new DateTime(1989, 9, 30),
-	                RaptureEndDate = new DateTime(1989, 9, 30),
-	                Predictor = "Edgar C. Whisenant",
-	                Details = "Whisenant's revised prediction of the rapture of the Christian Church, following failure of his two previous predictions.",
 	                WhoGotRaptured = "Nobody."
                 },
                 new Rapture
@@ -754,29 +736,11 @@ namespace RaptureApi.Data
                 },
                 new Rapture
                 {
-	                Id = 77,
-	                RaptureStartDate = new DateTime(1997, 8, 10),
-	                RaptureEndDate = new DateTime(1997, 8, 10),
-	                Predictor = "Aggai",
-	                Details = "The birth date of the Antichrist and the end of the universe.",
-	                WhoGotRaptured = "Nobody."
-                },
-                new Rapture
-                {
 	                Id = 78,
 	                RaptureStartDate = new DateTime(1997, 10, 23),
 	                RaptureEndDate = new DateTime(1997, 10, 23),
 	                Predictor = "James Ussher",
 	                Details = "This date is 6000 years since the creation, and therefore the end of the world.",
-	                WhoGotRaptured = "Nobody."
-                },
-                new Rapture
-                {
-	                Id = 79,
-	                RaptureStartDate = new DateTime(1998, 3, 31),
-	                RaptureEndDate = new DateTime(1998, 3, 31),
-	                Predictor = "Hon-Ming Chen",
-	                Details = "God will arrive at Earth at 10am on this date in a flying saucer.",
 	                WhoGotRaptured = "Nobody."
                 },
                 new Rapture
@@ -989,6 +953,42 @@ namespace RaptureApi.Data
 	                Details = "Christ's 1000 year reign would begin in the year 2000",
 	                WhoGotRaptured = "Nobody.",
 	                YearOnly = true
+                },
+                new Rapture
+                {
+                    Id = 100,
+                    RaptureStartDate = new DateTime(1987, 8, 17),
+                    RaptureEndDate = new DateTime(1987, 8, 17),
+                    Predictor = "José Argüelles",
+                    Details = "Armageddon would heppen unless 144,000 people gathered in specifc places on Earth and meditated at the same time, which became known as Harmonic Convergence.",
+                    WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+                    Id = 101,
+                    RaptureStartDate = new DateTime(1989, 9, 30),
+                    RaptureEndDate = new DateTime(1989, 9, 30),
+                    Predictor = "Edgar C. Whisenant",
+                    Details = "Whisenant's revised prediction of the rapture of the Christian Church, following failure of his two previous predictions.",
+                    WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+                    Id = 102,
+                    RaptureStartDate = new DateTime(1997, 8, 10),
+                    RaptureEndDate = new DateTime(1997, 8, 10),
+                    Predictor = "Aggai",
+                    Details = "The birth date of the Antichrist and the end of the universe.",
+                    WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+                    Id = 103,
+                    RaptureStartDate = new DateTime(1998, 3, 31),
+                    RaptureEndDate = new DateTime(1998, 3, 31),
+                    Predictor = "Hon-Ming Chen",
+                    Details = "God will arrive at Earth at 10am on this date in a flying saucer.",
+                    WhoGotRaptured = "Nobody."
                 });
         }
     }
