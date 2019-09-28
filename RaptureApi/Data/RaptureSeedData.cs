@@ -519,6 +519,119 @@ namespace RaptureApi.Data
 	                Predictor = "Roch Thériault",
 	                Details = "Led a commune into the Quebec wilderness to form a new society during God's 1000 year reign followed by Armageddon.",
 	                WhoGotRaptured = "Nobody.",
+                },
+                new Rapture
+                {
+	                Id = 55,
+	                RaptureStartDate = new DateTime(1980, 12, 31),
+	                RaptureEndDate = new DateTime(1980, 12, 31),
+	                Predictor = "Leland Jensen",
+	                Details = "Nuclear disaster, followed by two decades of conflict culminating in God's Kingdom being established on Earth.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 56,
+	                RaptureStartDate = new DateTime(1981, 12, 31),
+	                RaptureEndDate = new DateTime(1981, 12, 31),
+	                Predictor = "Chuck Smith",
+	                Details = "The generation of 1948 is the last generation and the world ends in 1981.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 57,
+	                RaptureStartDate = new DateTime(1982, 3, 10),
+	                RaptureEndDate = new DateTime(1982, 3, 10),
+	                Predictor = "John Gribbin, Stephen Plagemann",
+	                Details = "Believed the gravitational force of the aligned planets would cause a number of catastrophes, including earthquakes across the San Andreas Fault.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 58,
+	                RaptureStartDate = new DateTime(1982, 4, 31),
+	                RaptureEndDate = new DateTime(1982, 6, 31),
+	                Predictor = "Tara Centers",
+	                Details = "Declared \"Christ is now here!\" in newspaper advertisements and claimed he would make himself known \"within the next two months \"",
+	                WhoGotRaptured = "Nobody.",
+	                MonthOnly = true
+                },
+                new Rapture
+                {
+	                Id = 59,
+	                RaptureStartDate = new DateTime(1982, 6, 21),
+	                RaptureEndDate = new DateTime(1982, 6, 21),
+	                Predictor = "Benjamin Creme",
+	                Details = "Placed advertisements in the Los Angeles Times stating that the second coming would occur in June with the Maitreya (World Teacher) announcing it on worldwide TV.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 60,
+	                RaptureStartDate = new DateTime(1982, 12, 31),
+	                RaptureEndDate = new DateTime(1982, 12, 31),
+	                Predictor = "Pat Robertson",
+	                Details = "Predicted the world would end this year on his 700 Club TV programme.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 61,
+	                RaptureStartDate = new DateTime(1985, 12, 31),
+	                RaptureEndDate = new DateTime(1985, 12, 31),
+	                Predictor = "Lester Sumrall",
+	                Details = "Predicted the world ends in 1985.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 61,
+	                RaptureStartDate = new DateTime(1986, 4, 29),
+	                RaptureEndDate = new DateTime(1986, 4, 29),
+	                Predictor = "Leland Jensen",
+	                Details = "Predicted that Halley's Comet would be pulled into Earth's orbit.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 62,
+	                RaptureStartDate = new DateTime(1987, 8, 17),
+	                RaptureEndDate = new DateTime(1987, 8, 17),
+	                Predictor = "José Argüelles",
+	                Details = "Armageddon would heppen unless 144,000 people gathered in specifc places on Earth and meditated at the same time, which became known as Harmonic Convergence.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 63,
+	                RaptureStartDate = new DateTime(1988, 9, 11),
+	                RaptureEndDate = new DateTime(1988, 9, 11),
+	                Predictor = "Edgar C. Whisenant",
+	                Details = "Rapture of the Christian Church.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 64,
+	                RaptureStartDate = new DateTime(1988, 10, 3),
+	                RaptureEndDate = new DateTime(1988, 10, 3),
+	                Predictor = "Edgar C. Whisenant",
+	                Details = "Whisenant's revised prediction of the rapture of the Christian Church, following the failed September prediction.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 64,
+	                RaptureStartDate = new DateTime(1989, 9, 30),
+	                RaptureEndDate = new DateTime(1989, 9, 30),
+	                Predictor = "Edgar C. Whisenant",
+	                Details = "Whisenant's revised prediction of the rapture of the Christian Church, following failure of his two previous predictions.",
+	                WhoGotRaptured = "Nobody."
                 });
         }
     }
