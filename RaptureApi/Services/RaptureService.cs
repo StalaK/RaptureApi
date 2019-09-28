@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using RaptureApi.DTOs;
 using RaptureApi.Repository;
 
@@ -16,7 +17,8 @@ namespace RaptureApi.Services
 
         public IEnumerable<RaptureDetailsDto> GetAllRaptures()
         {
-            return repository.GetAllRaptures();
+            var raptures = repository.GetAllRaptures();
+            return raptures.OrderBy(r => r.RaptureStartDate);
         }
 
         public RaptureDetailsDto GetNextRapture()
@@ -26,7 +28,8 @@ namespace RaptureApi.Services
 
         public IEnumerable<RaptureDetailsDto> GetSurvivedRaptures(DateTime dateOfBirth)
         {
-            return repository.GetSurvivedRaptures(dateOfBirth);
+            var raptures = repository.GetSurvivedRaptures(dateOfBirth);
+            return raptures.OrderBy(r => r.RaptureStartDate);
         }
     }
 }
