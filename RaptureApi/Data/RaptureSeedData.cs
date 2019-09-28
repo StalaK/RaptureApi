@@ -729,7 +729,7 @@ namespace RaptureApi.Data
                 {
 	                Id = 75,
 	                RaptureStartDate = new DateTime(1995, 3, 31),
-	                RaptureEndDate = new DateTime(1995, 3, 31,
+	                RaptureEndDate = new DateTime(1995, 3, 31),
 	                Predictor = "Harold Camping",
 	                Details = "Camping's fourth rapture prediction, following the failure of his previous three.",
 	                WhoGotRaptured = "Nobody."
