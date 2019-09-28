@@ -688,6 +688,105 @@ namespace RaptureApi.Data
 	                Details = "The Second Coming takes place this year",
 	                WhoGotRaptured = "Nobody.",
 	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 71,
+	                RaptureStartDate = new DateTime(1994, 5, 2),
+	                RaptureEndDate = new DateTime(1994, 5, 2),
+	                Predictor = "Neal Chase",
+	                Details = "New York City would be destroyed by a nuclear bomb on the 23rd of March 1994, with the Battle of Armageddon taking place on the 2nd of May 1994.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 72,
+	                RaptureStartDate = new DateTime(1994, 9, 6),
+	                RaptureEndDate = new DateTime(1994, 9, 6),
+	                Predictor = "Harold Camping",
+	                Details = "Camping predicted the rapture would take place.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 73,
+	                RaptureStartDate = new DateTime(1994, 9, 29),
+	                RaptureEndDate = new DateTime(1994, 9, 29),
+	                Predictor = "Harold Camping",
+	                Details = "Camping's next rapture predicting, following the failure of his first.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 74,
+	                RaptureStartDate = new DateTime(1994, 10, 2),
+	                RaptureEndDate = new DateTime(1994, 10, 2),
+	                Predictor = "Harold Camping",
+	                Details = "Camping's third rapture prediction, following the failure of his previous two.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 75,
+	                RaptureStartDate = new DateTime(1995, 3, 31),
+	                RaptureEndDate = new DateTime(1995, 3, 31,
+	                Predictor = "Harold Camping",
+	                Details = "Camping's fourth rapture prediction, following the failure of his previous three.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 76,
+	                RaptureStartDate = new DateTime(1996, 12, 17),
+	                RaptureEndDate = new DateTime(1996, 12, 17),
+	                Predictor = "Sheldan Nidle",
+	                Details = "The world ends with the arrival of 16 million space ships and a host of angels.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 77,
+	                RaptureStartDate = new DateTime(1997, 3, 26),
+	                RaptureEndDate = new DateTime(1997, 3, 26),
+	                Predictor = "Marshall Applewhite",
+	                Details = "A spacecraft was trailing the Hale-Bopp comet and suicide was the only way to evacuate Earth the souls could board the spacecraft and be taken to a level of exitence above human.",
+	                WhoGotRaptured = "38 of Applewhite's followers commited suicide. It's unknown as to whether or not their souls reached the spacecraft."
+                },
+                new Rapture
+                {
+	                Id = 77,
+	                RaptureStartDate = new DateTime(1997, 8, 10),
+	                RaptureEndDate = new DateTime(1997, 8, 10),
+	                Predictor = "Aggai",
+	                Details = "The birth date of the Antichrist and the end of the universe.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 78,
+	                RaptureStartDate = new DateTime(1997, 10, 23),
+	                RaptureEndDate = new DateTime(1997, 10, 23),
+	                Predictor = "James Ussher",
+	                Details = "This date is 6000 years since the creation, and therefore the end of the world.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 79,
+	                RaptureStartDate = new DateTime(1998, 3, 31),
+	                RaptureEndDate = new DateTime(1998, 3, 31),
+	                Predictor = "Hon-Ming Chen",
+	                Details = "God will arrive at Earth at 10am on this date in a flying saucer.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 79,
+	                RaptureStartDate = new DateTime(1998, 3, 31),
+	                RaptureEndDate = new DateTime(1998, 3, 31),
+	                Predictor = "Hon-Ming Chen",
+	                Details = "God will arrive at Earth at 10am on this date in a flying saucer.",
+	                WhoGotRaptured = "Nobody."
                 });
         }
     }
