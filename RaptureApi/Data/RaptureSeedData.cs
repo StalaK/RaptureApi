@@ -787,6 +787,84 @@ namespace RaptureApi.Data
 	                Predictor = "Hon-Ming Chen",
 	                Details = "God will arrive at Earth at 10am on this date in a flying saucer.",
 	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 80,
+	                RaptureStartDate = new DateTime(1999, 7, 31),
+	                RaptureEndDate = new DateTime(1999, 7, 31),
+	                Predictor = "Nostradamus",
+	                Details = "A King of Terror would come from the sky in \"1999 and seven months\".",
+	                WhoGotRaptured = "Nobody.",
+	                MonthOnly = true
+                },
+                new Rapture
+                {
+	                Id = 81,
+	                RaptureStartDate = new DateTime(1999, 8, 18),
+	                RaptureEndDate = new DateTime(1999, 8, 18),
+	                Predictor = "The Amazing Criswell",
+	                Details = "This psychic, well known for predictions, predicted the end of the world on this date",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 82,
+	                RaptureStartDate = new DateTime(1999, 9, 11),
+	                RaptureEndDate = new DateTime(1999, 9, 11),
+	                Predictor = "Philip Berg",
+	                Details = "A ball of fire will descend, destroying almost all of mankind, all vegetation and all forms of life.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 83,
+	                RaptureStartDate = new DateTime(1999, 12, 31),
+	                RaptureEndDate = new DateTime(1999, 12, 31),
+	                Predictor = "Charles Berlitz",
+	                Details = "The world would end this year, maybe by nuclear devastation, asteroid impact, pole shift or other Earth changes.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 84,
+	                RaptureStartDate = new DateTime(1999, 12, 31),
+	                RaptureEndDate = new DateTime(1999, 12, 31),
+	                Predictor = "Hon-Ming Chen",
+	                Details = "A nuclear holocaust would destroy Europe and Asia.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 85,
+	                RaptureStartDate = new DateTime(1999, 12, 31),
+	                RaptureEndDate = new DateTime(1999, 12, 31),
+	                Predictor = "James Gordon Lindsay",
+	                Details = "The great tribulation would begin before 2000.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 86,
+	                RaptureStartDate = new DateTime(1999, 12, 31),
+	                RaptureEndDate = new DateTime(1999, 12, 31),
+	                Predictor = "Timothy Dwight IV",
+	                Details = "Christ's Millennium starting by 2000.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 87,
+	                RaptureStartDate = new DateTime(1999, 12, 31),
+	                RaptureEndDate = new DateTime(1999, 12, 31),
+	                Predictor = "Nazim Al-Haqqani",
+	                Details = "The last judgment would occur before 2000.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
                 });
         }
     }
