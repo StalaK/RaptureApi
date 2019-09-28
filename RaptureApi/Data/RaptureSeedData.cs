@@ -440,6 +440,85 @@ namespace RaptureApi.Data
 	                Predictor = "Charles Manson",
 	                Details = "Helter Skelter, an apocalyptic race war, occurs.",
 	                WhoGotRaptured = "Nobody outside of the Manson Family murders."
+                },
+                new Rapture
+                {
+	                Id = 47,
+	                RaptureStartDate = new DateTime(1972, 12, 31),
+	                RaptureEndDate = new DateTime(1972, 12, 31),
+	                Predictor = "Herbert W. Armstrong",
+	                Details = "The second revised date after his 1943 prediction failed.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 48,
+	                RaptureStartDate = new DateTime(1974, 1, 31),
+	                RaptureEndDate = new DateTime(1974, 1, 31),
+	                Predictor = "David Berg",
+	                Details = "Doomsday heralded by Comet Kohoutek",
+	                WhoGotRaptured = "Nobody.",
+	                MonthOnly = true
+                },
+                new Rapture
+                {
+	                Id = 49,
+	                RaptureStartDate = new DateTime(1975, 12, 31),
+	                RaptureEndDate = new DateTime(1975, 12, 31),
+	                Predictor = "Herbert W. Armstrong",
+	                Details = "The third and final revision of Armstrong's predicted Rapture.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 50,
+	                RaptureStartDate = new DateTime(1975, 12, 31),
+	                RaptureEndDate = new DateTime(1975, 12, 31),
+	                Predictor = "Jehovah's Witnesses",
+	                Details = "1975 is 6000 years since the creation of man and the end of the armageddon.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 51,
+	                RaptureStartDate = new DateTime(1976, 12, 31),
+	                RaptureEndDate = new DateTime(1976, 12, 31),
+	                Predictor = "Brahma Kumaris",
+	                Details = "Armageddon where Brahma Kumari leaders will be purified whilst the rest of the world is killed by nuclear or civil wars, sinking all continents except India.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 52,
+	                RaptureStartDate = new DateTime(1977, 12, 31),
+	                RaptureEndDate = new DateTime(1977, 12, 31),
+	                Predictor = "John Wroe",
+	                Details = "Armageddon.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 53,
+	                RaptureStartDate = new DateTime(1977, 12, 31),
+	                RaptureEndDate = new DateTime(1977, 12, 31),
+	                Predictor = "William M. Branham",
+	                Details = "Armageddon occurs no later than 1977.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 54,
+	                RaptureStartDate = new DateTime(1979, 2, 17),
+	                RaptureEndDate = new DateTime(1979, 2, 17),
+	                Predictor = "Roch Thériault",
+	                Details = "Led a commune into the Quebec wilderness to form a new society during God's 1000 year reign followed by Armageddon.",
+	                WhoGotRaptured = "Nobody.",
                 });
         }
     }
