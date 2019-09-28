@@ -228,6 +228,45 @@ namespace RaptureApi.Data
                     Predictor = "Rashad Khalifa",
                     Details = "Predicts the world will end this year following reaseach of the Qu'ran.",
                     YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 25,
+	                RaptureStartDate = new DateTime(1901, 12, 31),
+	                RaptureEndDate = new DateTime(1901, 12, 31),
+	                Predictor = "Catholic Apostolic Church",
+	                Details = "Jesus would return before the last of the 12 founding members of the church died. The last member died in 1901.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 26,
+	                RaptureStartDate = new DateTime(1908, 4, 23),
+	                RaptureEndDate = new DateTime(1908, 4, 23),
+	                Predictor = "Michael Paget Baxter",
+	                Details = "Apocalypse",
+	                WhoGotRaptured = "Nobody.",
+                },
+                new Rapture
+                {
+	                Id = 27,
+	                RaptureStartDate = new DateTime(1910, 12, 31),
+	                RaptureEndDate = new DateTime(1910, 12, 31),
+	                Predictor = "Camille Flammarion",
+	                Details = "Halleys Comet would destroy all life on the planet. Comet Pills were sold to prevent against toxic gasses.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 28,
+	                RaptureStartDate = new DateTime(1892, 12, 31),
+	                RaptureEndDate = new DateTime(1911, 12, 31),
+	                Predictor = "Charles Piazzi Smyth",
+	                Details = "Predicted the Second Coming, based off of the dimensions of the Great Pyramid of Giza.",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
                 });
         }
     }
