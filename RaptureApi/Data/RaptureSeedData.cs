@@ -632,6 +632,62 @@ namespace RaptureApi.Data
 	                Predictor = "Edgar C. Whisenant",
 	                Details = "Whisenant's revised prediction of the rapture of the Christian Church, following failure of his two previous predictions.",
 	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 65,
+	                RaptureStartDate = new DateTime(1990, 4, 23),
+	                RaptureEndDate = new DateTime(1990, 4, 23),
+	                Predictor = "Elizabeth Clare Prophet",
+	                Details = "A nuclear war starts on this day and lasts for 12 years.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 66,
+	                RaptureStartDate = new DateTime(1991, 9, 9),
+	                RaptureEndDate = new DateTime(1991, 9, 9),
+	                Predictor = "Menachem Mendel Schneerson",
+	                Details = "The Messiah would arrive at the start of the Jewish New Year",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 67,
+	                RaptureStartDate = new DateTime(1991, 12, 31),
+	                RaptureEndDate = new DateTime(1991, 12, 31),
+	                Predictor = "Louis Farrakhan",
+	                Details = "The Gulf War would be the War of Armageddon which is the final war",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 68,
+	                RaptureStartDate = new DateTime(1992, 9, 28),
+	                RaptureEndDate = new DateTime(1992, 9, 28),
+	                Predictor = "Rollen Stewart",
+	                Details = "The rapture begins",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 69,
+	                RaptureStartDate = new DateTime(1992, 10, 28),
+	                RaptureEndDate = new DateTime(1992, 10, 28),
+	                Predictor = "Lee Jang Rim",
+	                Details = "The rapture occurs on this day",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 70,
+	                RaptureStartDate = new DateTime(1993, 12, 31),
+	                RaptureEndDate = new DateTime(1993, 12, 31),
+	                Predictor = "David Berg",
+	                Details = "The Second Coming takes place this year",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
                 });
         }
     }
