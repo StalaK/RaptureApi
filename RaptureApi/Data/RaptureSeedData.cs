@@ -865,6 +865,130 @@ namespace RaptureApi.Data
 	                Details = "The last judgment would occur before 2000.",
 	                WhoGotRaptured = "Nobody.",
 	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 88,
+	                RaptureStartDate = new DateTime(2000, 1, 1),
+	                RaptureEndDate = new DateTime(2000, 1, 1),
+	                Predictor = "Movement for the Restoration of the Ten Commandments of God",
+	                Details = "Apocalypse",
+	                WhoGotRaptured = "Nobody, but 778 followers of this movement died in a fire and a series of poisonings and killings, either as a form of group suicide or orchestrated mass murder by the group leaders after the failed prediction."
+                },
+                new Rapture
+                {
+	                Id = 89,
+	                RaptureStartDate = new DateTime(2000, 1, 1),
+	                RaptureEndDate = new DateTime(2000, 1, 1),
+	                Predictor = "Jerry Falwell",
+	                Details = "God pours his judgment upon the world",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 90,
+	                RaptureStartDate = new DateTime(2000, 1, 1),
+	                RaptureEndDate = new DateTime(2000, 1, 1),
+	                Predictor = "Tim LaHaye & Jerry B. Jenkins",
+	                Details = "The Y2K bug would trigger global economic chaos, causing the Antichrist to rise to power. They changed their minds about this prediction as the date drew closer.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 91,
+	                RaptureStartDate = new DateTime(2000, 1, 1),
+	                RaptureEndDate = new DateTime(2000, 1, 1),
+	                Predictor = "Various",
+	                Details = "The Y2K bug would crash many computers at midnight on the 1st of January, causing malfuntions which lead to major catastrophies worldwide, causing society to stop functioning.",
+	                WhoGotRaptured = "Nobody, but there were some reported malfunctions with some technologies."
+                },
+                new Rapture
+                {
+	                Id = 92,
+	                RaptureStartDate = new DateTime(2000, 4, 6),
+	                RaptureEndDate = new DateTime(2000, 4, 6),
+	                Predictor = "James Harmston",
+	                Details = "The Second Coming of Christ occurs on this day",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 93,
+	                RaptureStartDate = new DateTime(2000, 5, 5),
+	                RaptureEndDate = new DateTime(2000, 5, 5),
+	                Predictor = "Nuwaubian Nation",
+	                Details = "The planetary lineup would cause a \"star holocaust\", pulling all the planets into the sun.",
+	                WhoGotRaptured = "Nobody."
+                },
+                new Rapture
+                {
+	                Id = 93,
+	                RaptureStartDate = new DateTime(2000, 12, 31),
+	                RaptureEndDate = new DateTime(2000, 12, 31),
+	                Predictor = "Peter Olivi",
+	                Details = "The Antichrist who came to power between 1300 and 1340 would perform the Last Judgment in 2000",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 94,
+	                RaptureStartDate = new DateTime(2000, 12, 31),
+	                RaptureEndDate = new DateTime(2000, 12, 31),
+	                Predictor = "Ruth Montgomery",
+	                Details = "The Earth's axis would shift and the Antichrist would reveal himself",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 95,
+	                RaptureStartDate = new DateTime(2000, 12, 31),
+	                RaptureEndDate = new DateTime(2000, 12, 31),
+	                Predictor = "Edgar Cayce",
+	                Details = "The Second Coming would occur in the year 2000",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 96,
+	                RaptureStartDate = new DateTime(2000, 12, 31),
+	                RaptureEndDate = new DateTime(2000, 12, 31),
+	                Predictor = "Sun Myung Moon",
+	                Details = "The Kingdom of Heaven would be established in 2000",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 97,
+	                RaptureStartDate = new DateTime(2000, 12, 31),
+	                RaptureEndDate = new DateTime(2000, 12, 31),
+	                Predictor = "Ed Dobson",
+	                Details = "Predicted the end of the world in his book \"The End: Why Jesus Could Return by A.D. 2000\"",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 98,
+	                RaptureStartDate = new DateTime(2000, 12, 31),
+	                RaptureEndDate = new DateTime(2000, 12, 31),
+	                Predictor = "Lester Sumrall",
+	                Details = "Predicted the end of the world in his book \"I Predict 2000\"",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 99,
+	                RaptureStartDate = new DateTime(2000, 12, 31),
+	                RaptureEndDate = new DateTime(2000, 12, 31),
+	                Predictor = "Jonathan Edwards",
+	                Details = "Christ's 1000 year reign would begin in the year 2000",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
                 });
         }
     }
