@@ -261,7 +261,7 @@ namespace RaptureApi.Data
                 new Rapture
                 {
 	                Id = 28,
-	                RaptureStartDate = new DateTime(1892, 12, 31),
+	                RaptureStartDate = new DateTime(1911, 12, 31),
 	                RaptureEndDate = new DateTime(1911, 12, 31),
 	                Predictor = "Charles Piazzi Smyth",
 	                Details = "Predicted the Second Coming, based off of the dimensions of the Great Pyramid of Giza.",
