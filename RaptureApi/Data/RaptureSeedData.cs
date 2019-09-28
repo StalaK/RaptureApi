@@ -267,6 +267,46 @@ namespace RaptureApi.Data
 	                Details = "Predicted the Second Coming, based off of the dimensions of the Great Pyramid of Giza.",
 	                WhoGotRaptured = "Nobody.",
 	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 29,
+	                RaptureStartDate = new DateTime(1874, 10, 31),
+	                RaptureEndDate = new DateTime(1914, 10, 31),
+	                Predictor = "Charles Taze Russell",
+	                Details = "The close of the battle of the great day of God Almighty.",
+	                WhoGotRaptured = "Nobody.",
+	                MonthOnly = true
+                },
+                new Rapture
+                {
+	                Id = 30,
+	                RaptureStartDate = new DateTime(1915, 12, 31),
+	                RaptureEndDate = new DateTime(1915, 12, 31),
+	                Predictor = "John Chilembwe",
+	                Details = "Predicted the Millennium would begin this year",
+	                WhoGotRaptured = "Nobody.",
+	                YearOnly = true
+                },
+                new Rapture
+                {
+	                Id = 31,
+	                RaptureStartDate = new DateTime(1918, 12, 31),
+	                RaptureEndDate = new DateTime(1918, 12, 31),
+	                Predictor = "International Bible Students Association",
+	                Details = "Christendom shall be cut off and glorification of the Little Flock (The Church) in the Spring of 1918",
+	                WhoGotRaptured = "Nobody.",
+	                MonthOnly = true
+                },
+                new Rapture
+                {
+	                Id = 32,
+	                RaptureStartDate = new DateTime(1920, 12, 31),
+	                RaptureEndDate = new DateTime(1920, 12, 31),
+	                Predictor = "International Bible Students Association",
+	                Details = "God destroys churches and church members by the millions. Governments disappear with anarchy prevailing.",
+	                WhoGotRaptured = "Nobody.",
+	                MonthOnly = true
                 });
         }
     }
