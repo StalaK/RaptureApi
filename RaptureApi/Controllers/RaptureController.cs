@@ -59,7 +59,7 @@ namespace RaptureApi.Controllers
         [Route("[action]")]
         public ActionResult<RaptureDetailsViewModel> GetCurrentRapture()
         {
-            var nextRapture = service.GetNextRapture();
+            var nextRapture = service.GetCurrentRapture();
             var viewModel = mapper.Map<RaptureDetailsViewModel>(nextRapture);
             return Ok(viewModel);
         }

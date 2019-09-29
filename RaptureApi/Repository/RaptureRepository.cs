@@ -27,7 +27,7 @@ namespace RaptureApi.Repository
 
         public RaptureDetailsDto GetNextRapture()
         {
-            var nextRapture = context.Raptures.First(r => r.RaptureStartDate >= DateTime.Now);
+            var nextRapture = context.Raptures.FirstOrDefault(r => r.RaptureStartDate >= DateTime.Now);
             return mapper.Map<RaptureDetailsDto>(nextRapture);
         }
 
@@ -39,7 +39,7 @@ namespace RaptureApi.Repository
 
         public RaptureDetailsDto GetCurrentRapture()
         {
-            var currentRapture = context.Raptures.First(r => r.RaptureStartDate <= DateTime.Now && r.RaptureEndDate >= DateTime.Now);
+            var currentRapture = context.Raptures.FirstOrDefault(r => r.RaptureStartDate <= DateTime.Now && r.RaptureEndDate >= DateTime.Now);
             return mapper.Map<RaptureDetailsDto>(currentRapture);
         }
 

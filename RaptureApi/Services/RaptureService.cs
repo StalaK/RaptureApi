@@ -34,7 +34,7 @@ namespace RaptureApi.Services
 
         public RaptureDetailsDto GetCurrentRapture()
         {
-            return repository.GetNextRapture();
+            return repository.GetCurrentRapture();
         }
 
         public IEnumerable<RaptureDetailsDto> GetAllFutureRaptures()
