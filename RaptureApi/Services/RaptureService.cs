@@ -31,5 +31,16 @@ namespace RaptureApi.Services
             var raptures = repository.GetSurvivedRaptures(dateOfBirth);
             return raptures.OrderBy(r => r.RaptureStartDate);
         }
+
+        public RaptureDetailsDto GetCurrentRapture()
+        {
+            return repository.GetNextRapture();
+        }
+
+        public IEnumerable<RaptureDetailsDto> GetAllFutureRaptures()
+        {
+            var raptures = repository.GetAllFutureRaptures();
+            return raptures.OrderBy(r => r.RaptureStartDate);
+        }
     }
 }

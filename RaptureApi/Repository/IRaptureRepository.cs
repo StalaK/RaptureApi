@@ -11,5 +11,9 @@ namespace RaptureApi.Repository
         IEnumerable<RaptureDetailsDto> GetSurvivedRaptures(DateTime dateOfBirth);
 
         RaptureDetailsDto GetNextRapture();
+
+        RaptureDetailsDto GetCurrentRapture();
+
+        IEnumerable<RaptureDetailsDto> GetAllFutureRaptures();
     }
 }

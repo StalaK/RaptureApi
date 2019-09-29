@@ -54,5 +54,23 @@ namespace RaptureApi.Controllers
             var viewModel = mapper.Map<RaptureDetailsViewModel>(nextRapture);
             return Ok(viewModel);
         }
+
+        [HttpGet]
+        [Route("[action]")]
+        public ActionResult<RaptureDetailsViewModel> GetCurrentRapture()
+        {
+            var nextRapture = service.GetNextRapture();
+            var viewModel = mapper.Map<RaptureDetailsViewModel>(nextRapture);
+            return Ok(viewModel);
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public ActionResult<IEnumerable<RaptureDetailsViewModel>> GetAllFutureRaptures()
+        {
+            var futureRaptures = service.GetAllFutureRaptures();
+            var viewModel = mapper.Map<IEnumerable<RaptureDetailsViewModel>>(futureRaptures);
+            return Ok(viewModel);
+        }
     }
 }

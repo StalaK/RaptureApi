@@ -36,5 +36,17 @@ namespace RaptureApi.Repository
             var survivedRaptures = context.Raptures.Where(r => r.RaptureEndDate >= dateOfBirth && r.RaptureEndDate < DateTime.Now);
             return mapper.Map<IEnumerable<RaptureDetailsDto>>(survivedRaptures);
         }
+
+        public RaptureDetailsDto GetCurrentRapture()
+        {
+            var currentRapture = context.Raptures.First(r => r.RaptureStartDate <= DateTime.Now && r.RaptureEndDate >= DateTime.Now);
+            return mapper.Map<RaptureDetailsDto>(currentRapture);
+        }
+
+        public IEnumerable<RaptureDetailsDto> GetAllFutureRaptures()
+        {
+            var futureRaptures = context.Raptures.Where(r => r.RaptureEndDate >= DateTime.Now);
+            return mapper.Map<IEnumerable<RaptureDetailsDto>>(futureRaptures);
+        }
     }
 }
