@@ -72,12 +72,5 @@ namespace RaptureApi.Controllers
             var viewModel = mapper.Map<IEnumerable<RaptureDetailsViewModel>>(futureRaptures);
             return Ok(viewModel);
         }
-
-        [HttpGet]
-        [Route("[action")]
-        public ActionResult<int> Test()
-        {
-            return 54321;
-        }
     }
 }
