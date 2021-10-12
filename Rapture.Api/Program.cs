@@ -17,6 +17,8 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new() { Title = "Rapture.Api", Version = "v1" });
 });
 
+builder.Services.AddCors(options => 
+    options.AddPolicy("joshh", policy => policy.WithOrigins("https://www.joshh.co.uk/")));
 
 var app = builder.Build();
 
