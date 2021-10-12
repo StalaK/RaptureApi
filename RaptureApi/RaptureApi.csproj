@@ -6,14 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\**" />
+    <Content Remove="wwwroot\**" />
+    <EmbeddedResource Remove="wwwroot\**" />
+    <None Remove="wwwroot\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Migrations\20190824011410_hello.cs" />
     <Compile Remove="Migrations\20190824011410_hello.Designer.cs" />
     <Compile Remove="Migrations\20190824011600_init.cs" />
     <Compile Remove="Migrations\20190824011600_init.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
